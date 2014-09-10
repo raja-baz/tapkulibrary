@@ -83,6 +83,7 @@ static inline NSString * TKKeyPathFromOperationState(TKOperationState state) {
 
 @implementation TKHTTPRequest
 
+@synthesize cancelled = _cancelled;
 
 #pragma mark Threading
 + (void) networkRequestThreadEntryPoint:(id)__unused object {
