@@ -64,7 +64,7 @@
 }
 - (void) stopAnimating{
 	self.loadingLabel.hidden = YES;
-	[NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(nextStep) object:nil];
+//	[NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(nextStep) object:nil];
 }
 
 - (void) didMoveToWindow{
